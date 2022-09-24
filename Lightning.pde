@@ -34,7 +34,7 @@ void draw() //draw() makes things happen over a span of time
   line(startX, startY, endX, endY);
   stroke(0, 0, 0);
   fill(200, 200, 200, 5);
-  rect(0, 0, 600, 600);
+  rect(-10, -10, 520, 520);
   startX=endX;
   startY=endY;
   //}
